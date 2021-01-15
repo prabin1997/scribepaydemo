@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
+import logo from './mock-up.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <iframe width="375" height="812" src="https://xd.adobe.com/embed/a84b9d61-1718-45d9-afff-97952a46cc62-fd18/" frameborder="0" className="overlapp-bottom"></iframe>
     </div>
   );
 }
